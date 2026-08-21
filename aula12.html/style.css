@@ -1,0 +1,36 @@
+/*aula12 */
+
+@charset "UTF-8";
+
+*{
+font-family: Arial, Helvetica, sans-serif;
+/*height: 100%; */
+}
+
+body {
+background-image: linear-gradient(to right, #430572, #2d13ad);
+}
+
+main {/*conteúdo principal do site*/
+    background-color: white;
+    width: 600px;
+    border-radius: 10px; /*para fazer o arredondamento das bordas*/
+    box-shadow: 5px 5px 15px #3e2d4b9e; /*para fazer sombra na seção*/
+    padding: 10px; /*espaçamento interno*/
+    margin: auto;/*espaçamento externo*/
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    text-shadow: 5px 5px 10px #5153d19b;
+}
+
+h2 {
+    color: rgb(128, 43, 226);
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
